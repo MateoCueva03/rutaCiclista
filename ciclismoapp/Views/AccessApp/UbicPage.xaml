@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ciclismoapp.Views.AccessApp.UbicPage"
+             Title="La ruta del ciclista"
+             BackgroundImageSource="https://www.xtrafondos.com/thumbs/vertical/1_155.jpg"
+             >
+    <Grid RowSpacing="{OnPlatform iOS=25,Android=18}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!---->
+            <RowDefinition Height="Auto"/>
+            <!--1-->
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+
+
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+       
+            <StackLayout Grid.Row="0" Orientation="Vertical"  >
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" Margin="20,50,20,0">
+                
+                <Label
+                    Text="Mi ubicación"
+                    FontSize="{OnPlatform Android=32}"
+                    TextColor="Black"
+                    VerticalOptions="Center"
+                    WidthRequest="230"
+                    FontAttributes="Bold"
+                    />
+
+            </StackLayout>
+         
+
+        </StackLayout>
+
+        <Frame CornerRadius="5" 
+               BackgroundColor="Transparent"
+               Margin="20,120,20,0">
+            <StackLayout Grid.Row="2" HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical" BackgroundColor="Transparent" Opacity="0.8" >
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="Center" Padding="0" HorizontalOptions="Center" HeightRequest="30">
+                    <Label
+                    Text="Latitud"
+                    FontSize="{OnPlatform Android=18}"
+                    TextColor="Black"
+                     VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    />
+
+                </StackLayout>
+                <Frame
+                     HasShadow="{OnPlatform Android=true,iOS=false}"
+                     Padding="{OnPlatform Android=8,iOS=0}"
+                     CornerRadius="{OnPlatform Android=7}"
+                     Margin="25"  
+                     BorderColor="Gray">
+
+                    <Label
+                    FontSize="{OnPlatform Android=15,iOS=16}"
+                    x:Name="LatitudTxt"
+                    IsEnabled="{Binding IsEnabledTxt}"
+                    HorizontalOptions="Center"
+                    
+                    />
+
+                </Frame>
+
+
+
+                <StackLayout  Orientation="Horizontal" VerticalOptions="Center" Padding="0" HorizontalOptions="Center" >
+                    <Label
+                    Text="Longitud"
+                    FontSize="{OnPlatform Android=18}"
+                    TextColor="Black"
+                     VerticalOptions="Center"
+                     
+                    HorizontalOptions="Center"
+
+                    />
+
+                </StackLayout>
+                <Frame
+                     HasShadow="{OnPlatform Android=true,iOS=false}"
+                     Padding="{OnPlatform Android=8,iOS=0}"
+                     CornerRadius="{OnPlatform Android=7}"
+                     Margin="25"  
+                    BorderColor="Gray">
+
+                    <Label
+                    FontSize="{OnPlatform Android=15,iOS=16}"
+                    x:Name="LongitudTxt"
+                    IsEnabled="{Binding IsEnabledTxt}"
+                    HorizontalOptions="Center"
+                    
+                    />
+
+                </Frame>
+                <Button
+                     Text="Mostrar mapa"
+                            TextColor="Black"
+                            Font="Montserrat-Medium.otf"
+                            FontSize="{OnPlatform Android=15}"
+                            BackgroundColor="Transparent"
+                            BorderColor="Black"
+                            BorderWidth="3"
+                            WidthRequest="300"
+                            HeightRequest="50"
+                            Margin="10"
+                            Clicked="mostrarMapi"
+                            IsEnabled="{Binding IsEnabledTxt}" 
+                    />
+            </StackLayout>
+        </Frame>
+
+          
+    </Grid>
+    
+</ContentPage>

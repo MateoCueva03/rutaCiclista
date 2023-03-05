@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ViewModels\Localization.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\AccessApp\XMLFile1.xml" />
+  </ItemGroup>
+ 
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseAuthentication.net" Version="3.7.2" />
+    <PackageReference Include="FirebaseDatabase.net" Version="4.1.0" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Plugin.CloudFirestore" Version="4.1.0" />
+    <PackageReference Include="Xam.Plugin.Geolocator" Version="4.5.0.6" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+ 
+
+  <ItemGroup>
+    <Compile Update="Views\AccessApp\DeletePage.xaml.cs">
+      <DependentUpon>DeletePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\AccessApp\UbicPage.xaml.cs">
+      <DependentUpon>UbicPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+ 
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\AccessApp\ForgotPasswordPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\AccessApp\DeletePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\AccessApp\TeamPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\CiclistaDetailsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+ 
+
+</Project>

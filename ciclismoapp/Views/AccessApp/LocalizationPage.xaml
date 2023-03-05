@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ciclismoapp.Views.AccessApp.LocalizationPage"
+             Title="La ruta del ciclista"
+             BackgroundImageSource="https://www.xtrafondos.com/thumbs/vertical/1_155.jpg"
+             >
+    <Grid RowSpacing="{OnPlatform iOS=25,Android=18}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!---->
+            <RowDefinition Height="Auto"/>
+            <!--1-->
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+
+
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+       
+            <StackLayout Grid.Row="0" Orientation="Vertical"  >
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                <Label
+                    Margin="20,50,20,0"
+                    Text="BIENVENIDO"
+                    FontSize="{OnPlatform Android=22}"
+                    TextColor="Black"
+                    VerticalOptions="Center"
+                    WidthRequest="150"
+                    FontAttributes="Bold"
+                    />
+
+            </StackLayout>
+         
+
+        </StackLayout>
+
+        
+        <StackLayout Grid.Row="4" HorizontalOptions="Center" WidthRequest="250" Orientation="Vertical" >
+
+           
+            <Button
+                     Text="Registrar Ciclista"
+                            TextColor="Black"
+                            Font="Montserrat-Medium.otf"
+                            FontSize="{OnPlatform Android=15}"
+                            BackgroundColor="Transparent"
+                            BorderColor="Black"
+                            BorderWidth="3"
+                            WidthRequest="300"
+                            HeightRequest="50"
+                            Margin="10"
+                            Clicked="SignUp_Clicked"
+                            IsEnabled="{Binding IsEnabledTxt}" 
+                    />
+
+
+            <Button
+                     Text="Ver tu ubicación"
+                            TextColor="Black"
+                            Font="Montserrat-Medium.otf"
+                            FontSize="{OnPlatform Android=15}"
+                            BackgroundColor="Transparent"
+                            BorderColor="Black"
+                            BorderWidth="3"
+                            WidthRequest="300"
+                            HeightRequest="50"
+                            Margin="10"
+                            Clicked="mostrarMapa"
+                            IsEnabled="{Binding IsEnabledTxt}" 
+                    />
+
+            <Button
+                     Text="Lista de ciclistas"
+                            TextColor="Black"
+                            Font="Montserrat-Medium.otf"
+                            FontSize="{OnPlatform Android=15}"
+                            BackgroundColor="Transparent"
+                            BorderColor="Black"
+                            BorderWidth="3"
+                            WidthRequest="300"
+                            HeightRequest="50"
+                            Margin="10"
+                            Clicked="mostrarEquipo"
+                            IsEnabled="{Binding IsEnabledTxt}" 
+                    />
+            
+            <Button
+                     Text="Eliminar usuarios"
+                            TextColor="Black"
+                            Font="Montserrat-Medium.otf"
+                            FontSize="{OnPlatform Android=15}"
+                            BackgroundColor="Transparent"
+                            BorderColor="Black"
+                            BorderWidth="3"
+                            WidthRequest="300"
+                            HeightRequest="50"
+                            Margin="10"
+                            Clicked="eliminarUser"
+                            IsEnabled="{Binding IsEnabledTxt}" 
+                    />
+        </StackLayout>
+
+        <StackLayout Grid.Row="7" HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical" >
+
+            <Button
+                     Text="Cerrar Sesión"
+                            TextColor="Black"
+                            Font="Montserrat-Medium.otf"
+                            FontSize="{OnPlatform Android=15}"
+                            BackgroundColor="Tomato"
+                            WidthRequest="300"
+                            HeightRequest="50"
+                            Clicked="cerrarSesion"
+                            IsEnabled="{Binding IsEnabledTxt}" 
+                    />
+
+        </StackLayout>
+
+        
+            <StackLayout  Grid.Row="8" HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical" BackgroundColor="Transparent" Opacity="0.8" >
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="Center" Padding="0" HorizontalOptions="Center" HeightRequest="30">
+                    <Label
+                    Text="Latitud"
+                    FontSize="{OnPlatform Android=13}"
+                    TextColor="Transparent"
+                     VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    />
+
+                </StackLayout>
+                <Frame
+                     HasShadow="{OnPlatform Android=true,iOS=false}"
+                     Padding="{OnPlatform Android=8,iOS=0}"
+                     CornerRadius="{OnPlatform Android=7}"
+                     Margin="25"  
+                    BackgroundColor="Transparent"
+                     BorderColor="Transparent">
+
+                    <Label
+                    FontSize="{OnPlatform Android=15,iOS=16}"
+                    x:Name="LatitudTxt"
+                    IsEnabled="{Binding IsEnabledTxt}"
+                    HorizontalOptions="Center"
+                    TextColor="Transparent"
+                    
+                    />
+
+                </Frame>
+
+
+
+                <StackLayout  Orientation="Horizontal" VerticalOptions="Center" Padding="0" HorizontalOptions="Center" >
+                    <Label
+                    Text="Longitud"
+                    FontSize="{OnPlatform Android=13}"
+                    TextColor="Transparent"
+                     VerticalOptions="Center"
+                     
+                    HorizontalOptions="Center"
+
+                    />
+
+                </StackLayout>
+                <Frame
+                     HasShadow="{OnPlatform Android=true,iOS=false}"
+                     Padding="{OnPlatform Android=8,iOS=0}"
+                     CornerRadius="{OnPlatform Android=7}"
+                     Margin="25"  
+                    BorderColor="Transparent"
+                    >
+
+                    <Label
+                        TextColor="Transparent"
+                    FontSize="{OnPlatform Android=15,iOS=16}"
+                    x:Name="LongitudTxt"
+                    IsEnabled="{Binding IsEnabledTxt}"
+                    HorizontalOptions="Center"
+                    
+                    />
+
+                </Frame>
+
+            </StackLayout>
+    </Grid>
+</ContentPage>
