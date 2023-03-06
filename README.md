@@ -107,12 +107,7 @@ Como parte de los módulos principales del sistema se tiene:
 
 Para el módulo de inicio de sesión, tanto en las configuraciones de Firebase como en el código respectivo para este módulo, se estableció la autenticación del usuario a través del correo electrónico y la contraseña. 
 
-<p align="center">
-    <a>
-        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="codigo inicio de sesión" width="300" height="500">
-    </a>
-    <br>
- </p>
+![image](https://user-images.githubusercontent.com/74751902/223037494-2e9dcae6-a8ae-4060-ad7f-11961dc1f63c.png)
 
 ## Administración de usuarios
 
