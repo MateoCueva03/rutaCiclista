@@ -107,12 +107,7 @@ Como parte de los módulos principales del sistema se tiene:
 
 Para el módulo de inicio de sesión, tanto en las configuraciones de Firebase como en el código respectivo para este módulo, se estableció la autenticación del usuario a través del correo electrónico y la contraseña. 
 
-<p align="center">
-    <a>
-        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="codigo inicio de sesión" width="300" height="500">
-    </a>
-    <br>
- </p>
+![image](https://user-images.githubusercontent.com/74751902/223043261-b3ec0dd5-51cb-4d64-97f0-2fd858a0b362.png)
 
 ## Administración de usuarios
 
@@ -127,7 +122,10 @@ Como parte del módulo para la administración de usuarios se tienen los submód
 
 ### Registrar un nuevo usuario
 
-Como parte de la lógica implementada para este submódulo, se estableció únicamente el usuario administrador pueda acceder al mismo, para ello, dentro del archivo ..., se añadió esta restricción.
+Como parte de la lógica implementada para este submódulo, se estableció únicamente el usuario administrador pueda acceder al mismo, para ello, en el archivo LocalizationPage.xaml, correspondiente a la página principal se añadió esta restricción.
+
+![image](https://user-images.githubusercontent.com/74751902/223043127-78c0e1e6-3482-4c2c-a965-aa11c39bb03f.png)
+
 
 Una vez dentro de este, el administrador debe completar los campos que se muestran en la imágen.
 
