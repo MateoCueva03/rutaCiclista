@@ -146,13 +146,12 @@ Importante❗❗: Cuando un usuario ciclista hace clic en el módulo para <a hre
 
 <p align="center">
     <a>
-        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="alerta registro" width="100" height="80">
+        <img src="https://res.cloudinary.com/dm0qsdpr8/image/upload/v1678079141/moviles%20proyecto%20final/WhatsApp_Image_2023-03-05_at_17.12.51_ypub4q.jpg" width="300" height="500">
         <br>
       <b>RutaCiclista</b>
     </a>
     <br>
  </p>
-
 
 ### Eliminar un usuario
 
@@ -179,7 +178,38 @@ En caso de que el usuario ciclista quiera acceder a este módulo, se presentará
 
 ## Geolocalización
 
-Como parte de la geolocalización, dentro del archivo ..., se implemento la lógica para que el usuario, una vez que  
+Como parte de la geolocalización, dentro del archivo ..., se implemento la lógica para que una vez que el usuario otorgue los permisos a la aplicación para acceder a su ubicación, esta guardará las coordenadas en donde se encuentra dicho usuario cada 5-10 segundos aproximadamente.
+
+ <p align="center">
+    <a>
+        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="alerta eliminar" width="300" height="500">
+        <br>
+      <b>RutaCiclista</b>
+    </a>
+    <br>
+ </p>
+
+Los usuarios registrados podrán visualizar cada una de las ubicaciones obtenidas a través de la aplicación seleccionando de la lista el usuario del cual quieren saber su ubicación 
+
+ <p align="center">
+    <a>
+        <img src="https://res.cloudinary.com/dm0qsdpr8/image/upload/v1678079142/moviles%20proyecto%20final/WhatsApp_Image_2023-03-05_at_10.47.49_hcmi13.jpg" alt="alerta eliminar" width="300" height="500">
+        <br>
+      <b>RutaCiclista</b>
+    </a>
+    <br>
+ </p>
+ 
+Finalmente se deben seleccionar las coordenadas para visualizar la ubicación en el mapa
+
+ <p align="center">
+    <a>
+        <img src="https://res.cloudinary.com/dm0qsdpr8/image/upload/v1678079142/moviles%20proyecto%20final/WhatsApp_Image_2023-03-05_at_10.47.59_obj3dx.jpg" alt="alerta eliminar" width="300" height="500">
+        <br>
+      <b>RutaCiclista</b>
+    </a>
+    <br>
+ </p>
 
 ## Video explicativo
  
