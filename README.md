@@ -212,6 +212,8 @@ Finalmente se debe seleccionar las coordenadas para visualizar la ubicación en 
  
 A continuación se presenta un video explicativo tanto del funcionamiento como la implementación del código.
 
+<p align="center"><a href="" target="_blank"><strong>Video explicativo »</strong></a></p>
+
 ## Publicación en una tienda de aplicaciones
 
 Finalmente, para la publicación de nuestra aplicacion hemos utilizado la tienda de aplicaciones llamada "Aptoide" la cual nos permite descargar y subir aplicaciones. 
