@@ -36,11 +36,11 @@
         <a href="#geolocalización">Geolocalización</a>
      </li>
      <li>
-        <a href="#acceso-a-la-aplicación">Acceso a la aplicación</a>
-     </li>
-     <li>
         <a href="#video-explicativo">Video explicativo</a>
      </li>
+      <li>
+       <a href="#publicación-en-una-tienda-de-aplicaciones">Publicación en una tienda de aplicaciones</a>
+      </li>
       </ul>
     </li>  
   </ol>
@@ -85,8 +85,8 @@ Como parte de los módulos principales del sistema se tiene:
     <li><a href="#inicio-de-sesión">Inicio de sesión </a></li>
     <li><a href="#administración-de-usuarios">Administración de usuarios</a></li>
     <li><a href="#geolocalización">Geolocalización</a></li>
-    <li><a href="#acceso-a-la-aplicación">Acceso a la aplicación</a></li>
     <li><a href="#video-explicativo">Video explicativo</a></li>
+    <li><a href="#publicación-en-una-tienda-de-aplicaciones">Publicación en una tienda de aplicaciones</a></li>
 </ul>
 
 <p align="center">
@@ -202,6 +202,8 @@ Finalmente se debe seleccionar las coordenadas para visualizar la ubicación en 
 ## Video explicativo
  
 A continuación se presenta un video explicativo tanto del funcionamiento como la implementación del código.
+
+<p align="center"><a href="" target="_blank"><strong>Video explicativo »</strong></a></p>
 
 ## Publicación en una tienda de aplicaciones
 
