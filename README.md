@@ -56,6 +56,8 @@ El proyecto consiste en la implementación de un sistema que permita verificar l
  <li> La ubicación de los ciclistas se seguirá almacenando a pesar de que se minimice la aplicación</li>
 </ul>
 
+Este proyecto fue creado con Xamarin.
+
 ### Integrantes: 
 
 <p align="center">
@@ -134,8 +136,6 @@ Como parte del módulo para la administración de usuarios se tienen los submód
 
 ### Registrar un nuevo usuario
 
-
-
 Como parte de la lógica implementada para este submódulo, se estableció únicamente el usuario administrador pueda acceder al mismo, para ello, dentro del archivo ..., se añadió esta restricción.
 
 Una vez dentro de este, el administrador debe completar los campos que se muestran en la imágen.
@@ -190,8 +190,10 @@ En caso de que el usuario ciclista quiera acceder a este módulo, se presentará
 
 Como parte de la geolocalización, dentro del archivo ..., se implemento la lógica para que el usuario, una vez que  
 
-## Acceso a la aplicación
-
 ## Video explicativo
  
 A continuación se presenta un video explicativo tanto del funcionamiento como la implementación del código.
+
+## Acceso a la aplicación
+
+
