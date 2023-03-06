@@ -142,7 +142,14 @@ Una vez dentro de este, el administrador debe completar los campos que se muestr
 
 Luego dentro del listado de los usuarios se mostrará la información registrada. 
 
-Importante❗❗: Cuando un usuario ciclista hace clic en el módulo para <a href="#registrar-un-nuevo-usuario">"Registrar un nuevo usuario"</a>, se le presenta la siguiente alerta: 
+<p align="center">
+    <a>
+        <img src="https://res.cloudinary.com/dm0qsdpr8/image/upload/v1678079142/moviles%20proyecto%20final/WhatsApp_Image_2023-03-05_at_10.47.38_twzula.jpg" alt="modulos" width="300" height="500">
+    </a>
+    <br>
+ </p>
+
+❗❗Importante: Cuando un usuario ciclista hace clic en el módulo para <a href="#registrar-un-nuevo-usuario">"Registrar un nuevo usuario"</a>, se le presenta la siguiente alerta: 
 
 <p align="center">
     <a>
