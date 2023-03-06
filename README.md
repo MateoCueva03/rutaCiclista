@@ -229,6 +229,8 @@ Para subir una aplicacion necesitamos la app llamada "Aptoide Uploader", nos reg
 <br>
 <br>
 Si nos dirigimos a nuestra tienda nos podemos dar cuenta que nuestra aplicacion se encuentra ahi
+<br>
+<br>
 ![image](https://user-images.githubusercontent.com/66330281/223038993-d997b333-9239-4428-ae31-a070b39fb395.png)
 ![image](https://user-images.githubusercontent.com/66330281/223039138-ab30368d-80aa-4b98-9079-f138ad72f050.png)
 <br>
