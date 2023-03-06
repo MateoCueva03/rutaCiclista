@@ -137,9 +137,7 @@ Una vez dentro de este, el administrador debe completar los campos que se muestr
 
 <p align="center">
     <a>
-        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="registro" width="100" height="80">
-        <br>
-      <b>RutaCiclista</b>
+        <img src="https://res.cloudinary.com/dm0qsdpr8/image/upload/v1678079691/moviles%20proyecto%20final/WhatsApp_Image_2023-03-05_at_00.04.21_hua8ht.jpg" alt="modulos" width="300" height="500">
     </a>
     <br>
  </p>
