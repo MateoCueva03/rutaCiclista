@@ -4,7 +4,7 @@
  
  <p align="center">
     <a>
-        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="Logo" width="100" height="80">
+        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="Logo" width="150" height="100">
         <br>
       <b>RutaCiclista</b>
     </a>
