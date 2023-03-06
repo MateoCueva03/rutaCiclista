@@ -221,6 +221,20 @@ Para subir una aplicacion necesitamos la app llamada "Aptoide Uploader", nos reg
 ![image](https://user-images.githubusercontent.com/66330281/223037933-305d56a6-200d-495b-b3b5-cc4212410a81.png)
 <br>
 <br>
+Una vez dentro de la aplicacion "Aptoide" nos dirigimos a la opcion "Tiendas" (Stores) y clicleamos en "Seguir tienda" (Follow store) 
+<br>
+<br>
+![image](https://user-images.githubusercontent.com/66330281/223281384-7e7b34cc-7f04-43fc-9cce-c73b1c129d3c.png)
+![image](https://user-images.githubusercontent.com/66330281/223281431-83210350-e381-4508-a231-b2c2b567cf3d.png)
+<br>
+<br>
+Y buscamos nuestra tienda llamada "tuappcenter" y damos clic en "Seguir" (Follow) y apacera nuestra tienda tuappcenter como se muestra en la imagen
+<br>
+<br>
+![image](https://user-images.githubusercontent.com/66330281/223281680-db363f61-bf02-432a-a7f6-e4699e84dee6.png)
+![image](https://user-images.githubusercontent.com/66330281/223281699-33bb6335-706c-46c0-83f5-62a6e258ec80.png)
+<br>
+<br>
 Si nos dirigimos a nuestra tienda nos podemos dar cuenta que nuestra aplicacion se encuentra ahi
 <br>
 <br>
