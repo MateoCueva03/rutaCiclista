@@ -4,7 +4,7 @@
  
  <p align="center">
     <a>
-        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="Logo" width="170" height="130">
+        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="Logo" width="150" height="130">
         <br>
       <b>RutaCiclista</b>
     </a>
@@ -62,7 +62,7 @@ Este proyecto fue creado con Xamarin.
 
 <p align="center">
     <a>
-        <img src="https://cdn-icons-png.flaticon.com/512/1376/1376510.png" alt="integrantes" width="100" height="80">
+        <img src="https://cdn-icons-png.flaticon.com/512/1376/1376510.png" alt="integrantes" width="150" height="130">
         <br>
     </a>
     <br>
