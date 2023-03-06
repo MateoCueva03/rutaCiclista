@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ciclismoapp.Views.AccessApp.TeamPage"
-             Title="Información de los ciclistas"
+             Title="Información de los usuarios"
              BackgroundImageSource="https://i.pinimg.com/564x/6a/80/eb/6a80eb7a79ccee07d59c178e81fd28ed.jpg">
     <ContentPage.Content>
         <ScrollView>

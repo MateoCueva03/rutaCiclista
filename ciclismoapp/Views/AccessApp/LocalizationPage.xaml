@@ -39,16 +39,21 @@
                     />
 
             </StackLayout>
-         
+
+
 
         </StackLayout>
 
         
         <StackLayout Grid.Row="4" HorizontalOptions="Center" WidthRequest="250" Orientation="Vertical" >
 
-           
+            <StackLayout Grid.Row="0" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                <Label HorizontalOptions="CenterAndExpand" Text="Selecciona un modulo"
+                            FontAttributes="Bold" TextColor="Black"></Label>
+            </StackLayout >
+
             <Button
-                     Text="Registrar Ciclista"
+                     Text="Registrar Usuario"
                             TextColor="Black"
                             Font="Montserrat-Medium.otf"
                             FontSize="{OnPlatform Android=15}"
@@ -79,7 +84,7 @@
                     />
 
             <Button
-                     Text="Lista de ciclistas"
+                     Text="Lista de usuarios"
                             TextColor="Black"
                             Font="Montserrat-Medium.otf"
                             FontSize="{OnPlatform Android=15}"

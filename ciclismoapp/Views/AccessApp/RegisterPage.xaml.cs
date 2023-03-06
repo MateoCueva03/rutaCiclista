@@ -25,7 +25,7 @@ namespace ciclismoapp.Views.AccessApp
 
         private async void NavToLogin_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TeamPage());
+            await Navigation.PushAsync(new LoginPage());
         }
 
         

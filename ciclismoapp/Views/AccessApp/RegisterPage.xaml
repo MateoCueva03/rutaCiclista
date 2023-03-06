@@ -34,7 +34,7 @@
 
             <StackLayout Grid.Row="1" HorizontalOptions="Center">
                 <Label
-                    Text="Registro de Ciclistas"
+                    Text="Registro de Usuarios"
                             TextColor="Black"
                             Font="Montserrat-Medium.otf"
                             FontSize="{OnPlatform Android=26,iOS=23}"
@@ -43,7 +43,7 @@
                     />
             </StackLayout>
 
-            <StackLayout Grid.Row="2" HorizontalOptions="Center" WidthRequest="{OnPlatform iOS=300,Android=300}" Orientation="Vertical"  >
+            <StackLayout Grid.Row="3" HorizontalOptions="Center" WidthRequest="{OnPlatform iOS=300,Android=300}" Orientation="Vertical"  >
                 <Label
                     Text="Correo electrónico"
                     FontSize="{OnPlatform Android=13}"
@@ -65,7 +65,7 @@
                 </Frame>
             </StackLayout>
 
-            <StackLayout Grid.Row="3" HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical" >
+            <StackLayout Grid.Row="4" HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical" >
 
                 <Label
                     Text="Contraseña"
@@ -92,7 +92,7 @@
 
             </StackLayout>
 
-                <StackLayout Grid.Row="4" HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical" >
+                <StackLayout Grid.Row="2" HorizontalOptions="Center" WidthRequest="300" Orientation="Vertical" >
                     <Label
                      Text="Nombre"
                      FontSize="{OnPlatform Android=13}"
@@ -121,7 +121,7 @@
                 <Label
                      Text="Celular"
                      FontSize="{OnPlatform Android=13}"
-                     TextColor="Black"/>
+                     TextColor="White"/>
 
                 <Frame
                      HasShadow="{OnPlatform Android=true,iOS=false}"
@@ -145,7 +145,7 @@
                     <Label
                      Text="Tipo usuario"
                      FontSize="{OnPlatform Android=13}"
-                     TextColor="White"/>
+                     TextColor="Black"/>
 
                     <Frame
                      HasShadow="{OnPlatform Android=true,iOS=false}"
@@ -154,7 +154,7 @@
                      >
 
                         <Entry
-                    Placeholder="Admin / Ci"
+                    Placeholder="Administrador / Ciclista"
                     MaxLength="25"
                     Keyboard="Text"
                     FontSize="{OnPlatform Android=15,iOS=16}"

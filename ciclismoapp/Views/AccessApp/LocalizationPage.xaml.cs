@@ -138,7 +138,7 @@ namespace ciclismoapp.Views.AccessApp
             var localAuth = Login.auth;
             var user = localAuth.User.Email;
 
-            if (user == "admin1@gmail.com")
+            if (user == "admin@gmail.com")
             {
                 await Navigation.PushAsync(new DeletePage());
             }
@@ -155,7 +155,7 @@ namespace ciclismoapp.Views.AccessApp
             var localAuth = Login.auth;
             var user = localAuth.User.Email;
 
-            if (user == "admin1@gmail.com")
+            if (user == "admin@gmail.com")
             {
                 await Navigation.PushAsync(new RegisterPage());
             }
