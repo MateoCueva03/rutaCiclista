@@ -107,7 +107,12 @@ Como parte de los módulos principales del sistema se tiene:
 
 Para el módulo de inicio de sesión, tanto en las configuraciones de Firebase como en el código respectivo para este módulo, se estableció la autenticación del usuario a través del correo electrónico y la contraseña. 
 
-![image](https://user-images.githubusercontent.com/74751902/223037494-2e9dcae6-a8ae-4060-ad7f-11961dc1f63c.png)
+<p align="center">
+    <a>
+        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="codigo inicio de sesión" width="300" height="500">
+    </a>
+    <br>
+ </p>
 
 ## Administración de usuarios
 
@@ -122,10 +127,7 @@ Como parte del módulo para la administración de usuarios se tienen los submód
 
 ### Registrar un nuevo usuario
 
-Como parte de la lógica implementada para este submódulo, se estableció únicamente el usuario administrador pueda acceder al mismo, para ello, en la página principal dentro del archivo Localization.Page.xaml.cs en la funcioón para registrar usuarios se añadió esta restricción.
-
-![image](https://user-images.githubusercontent.com/74751902/223038751-47cf9ec5-80b5-4e23-8826-8d9f6c089c92.png)
-
+Como parte de la lógica implementada para este submódulo, se estableció únicamente el usuario administrador pueda acceder al mismo, para ello, dentro del archivo ..., se añadió esta restricción.
 
 Una vez dentro de este, el administrador debe completar los campos que se muestran en la imágen.
 
@@ -177,10 +179,16 @@ En caso de que el usuario ciclista quiera acceder a este módulo, se presentará
 
 ## Geolocalización
 
-Como parte de la geolocalización, dentro del archivo CiclistaDetailsPage.xaml se implemento la lógica para que una vez que el usuario otorgue los permisos a la aplicación para acceder a su ubicación, esta guardará las coordenadas en donde se encuentra dicho usuario cada 5-10 segundos aproximadamente.
+Como parte de la geolocalización, dentro del archivo ..., se implemento la lógica para que una vez que el usuario otorgue los permisos a la aplicación para acceder a su ubicación, esta guardará las coordenadas en donde se encuentra dicho usuario cada 5-10 segundos aproximadamente.
 
-![image](https://user-images.githubusercontent.com/74751902/223039211-1b0ebb31-f9bb-4876-a134-0c94c2b8825f.png)
-
+ <p align="center">
+    <a>
+        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="alerta eliminar" width="300" height="500">
+        <br>
+      <b>RutaCiclista</b>
+    </a>
+    <br>
+ </p>
 
 Los usuarios registrados podrán visualizar cada una de las ubicaciones obtenidas a través de la aplicación seleccionando de la lista el usuario del cual quieren saber su ubicación 
 
@@ -204,10 +212,32 @@ Finalmente se debe seleccionar las coordenadas para visualizar la ubicación en 
  
 A continuación se presenta un video explicativo tanto del funcionamiento como la implementación del código.
 
-<p align="center"><a href="" target="_blank"><strong>Video explicativo »</strong></a></p>
-
 ## Publicación en una tienda de aplicaciones
 
-Finalmente, para la publicación de nuestra aplicacion hemos utilizado la tienda de aplicaciones llamada "Aptoide" la cual nos permite descargar y subir aplicaciones. 
+Finalmente, para la publicación de nuestra aplicacion hemos utilizado la tienda de aplicaciones llamada "Aptoide" la cual nos permite descargar y subir aplicaciones. Como primer paso descargamos la aplicacion, nos registramos y creamos una tienda.
+<br>
+<br>
+![image](https://user-images.githubusercontent.com/66330281/223039321-330bfdee-5d38-4316-bc8c-72aa67e0922f.png)
+![image](https://user-images.githubusercontent.com/66330281/223039389-97a4b2fc-4cb1-4b7a-baa6-897542b336f6.png)
+<br>
+<br>
+Para subir una aplicacion necesitamos la app llamada "Aptoide Uploader", nos registramos con la cuenta que creamos anteriormente. Una vez realizado buscamos nuestra aplicacion y seleccionamos en "Enviar apps". Una vez completado nos mostrara un mensaje de confirmacion. 
+<br>
+<br>
+![image](https://user-images.githubusercontent.com/66330281/223037717-7a10e117-290e-42b1-9176-4ae4d1d0f9d1.png)
+![image](https://user-images.githubusercontent.com/66330281/223037933-305d56a6-200d-495b-b3b5-cc4212410a81.png)
+<br>
+<br>
+Si nos dirigimos a nuestra tienda nos podemos dar cuenta que nuestra aplicacion se encuentra ahi
+![image](https://user-images.githubusercontent.com/66330281/223038993-d997b333-9239-4428-ae31-a070b39fb395.png)
+![image](https://user-images.githubusercontent.com/66330281/223039138-ab30368d-80aa-4b98-9079-f138ad72f050.png)
+<br>
+
+
+
+
+
+
+
 
 
