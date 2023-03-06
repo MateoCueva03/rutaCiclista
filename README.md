@@ -177,16 +177,10 @@ En caso de que el usuario ciclista quiera acceder a este módulo, se presentará
 
 ## Geolocalización
 
-Como parte de la geolocalización, dentro del archivo ..., se implemento la lógica para que una vez que el usuario otorgue los permisos a la aplicación para acceder a su ubicación, esta guardará las coordenadas en donde se encuentra dicho usuario cada 5-10 segundos aproximadamente.
+Como parte de la geolocalización, dentro del archivo CiclistaDetailsPage.xaml se implemento la lógica para que una vez que el usuario otorgue los permisos a la aplicación para acceder a su ubicación, esta guardará las coordenadas en donde se encuentra dicho usuario cada 5-10 segundos aproximadamente.
 
- <p align="center">
-    <a>
-        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="alerta eliminar" width="300" height="500">
-        <br>
-      <b>RutaCiclista</b>
-    </a>
-    <br>
- </p>
+![image](https://user-images.githubusercontent.com/74751902/223039211-1b0ebb31-f9bb-4876-a134-0c94c2b8825f.png)
+
 
 Los usuarios registrados podrán visualizar cada una de las ubicaciones obtenidas a través de la aplicación seleccionando de la lista el usuario del cual quieren saber su ubicación 
 
