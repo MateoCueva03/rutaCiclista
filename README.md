@@ -107,7 +107,12 @@ Como parte de los módulos principales del sistema se tiene:
 
 Para el módulo de inicio de sesión, tanto en las configuraciones de Firebase como en el código respectivo para este módulo, se estableció la autenticación del usuario a través del correo electrónico y la contraseña. 
 
-![image](https://user-images.githubusercontent.com/74751902/223037494-2e9dcae6-a8ae-4060-ad7f-11961dc1f63c.png)
+<p align="center">
+    <a>
+        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="codigo inicio de sesión" width="300" height="500">
+    </a>
+    <br>
+ </p>
 
 ## Administración de usuarios
 
@@ -207,10 +212,29 @@ Finalmente se debe seleccionar las coordenadas para visualizar la ubicación en 
  
 A continuación se presenta un video explicativo tanto del funcionamiento como la implementación del código.
 
-<p align="center"><a href="" target="_blank"><strong>Video explicativo »</strong></a></p>
-
 ## Publicación en una tienda de aplicaciones
 
-Finalmente, para la publicación de nuestra aplicacion hemos utilizado la tienda de aplicaciones llamada "Aptoide" la cual nos permite descargar y subir aplicaciones. 
+Finalmente, para la publicación de nuestra aplicacion hemos utilizado la tienda de aplicaciones llamada "Aptoide" la cual nos permite descargar y subir aplicaciones. Como primer paso descargamos la aplicacion, nos registramos y creamos una tienda.
+<br>
+![image](https://user-images.githubusercontent.com/66330281/223036172-ef2c5aa4-79b7-41de-b266-f81895f58ba7.png)
+![image](https://user-images.githubusercontent.com/66330281/223036684-dcec3491-c4d3-499a-aeb7-fd97e575576e.png)
+<br>
+Para subir una aplicacion necesitamos la app llamada "Aptoide Uploader", nos registramos con la cuenta que creamos anteriormente. Una vez realizado buscamos nuestra aplicacion y seleccionamos en "Enviar apps". Una vez completado nos mostrara un mensaje de confirmacion. 
+<br>
+![image](https://user-images.githubusercontent.com/66330281/223037626-509d5395-0c84-4712-a0b0-2f3ac9eba782.png)
+![image](https://user-images.githubusercontent.com/66330281/223037717-7a10e117-290e-42b1-9176-4ae4d1d0f9d1.png)
+![image](https://user-images.githubusercontent.com/66330281/223037933-305d56a6-200d-495b-b3b5-cc4212410a81.png)
+<br>
+Si nos dirigimos a nuestra tienda nos podemos dar cuenta que nuestra aplicacion se encuentra ahi
+![image](https://user-images.githubusercontent.com/66330281/223038347-13f06aec-849d-4534-9e76-2122abbe2eba.png)
+![image](https://user-images.githubusercontent.com/66330281/223038415-990383a6-d79b-4fb8-9e2e-73b6952a33e8.png)
+<br>
+
+
+
+
+
+
+
 
 
