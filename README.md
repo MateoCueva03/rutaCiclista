@@ -162,11 +162,11 @@ Luego dentro del listado de los usuarios se mostrará la información registrada
 
 ### Eliminar un usuario
 
-Dentro del módulo para eliminar un usuario, el administrador podrá visuualizar la lista de los usuarios registrados 
+Dentro del módulo para eliminar un usuario, el administrador podrá visualizar la lista de los usuarios registrados 
 
 <p align="center">
     <a>
-        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="lista eliminar" width="100" height="80">
+        <img src="https://res.cloudinary.com/dm0qsdpr8/image/upload/v1678082256/moviles%20proyecto%20final/WhatsApp_Image_2023-03-05_at_19.44.11_vqx8kf.jpg" alt="lista eliminar" width="300" height="500">
         <br>
     </a>
     <br>
@@ -176,7 +176,7 @@ En caso de que el usuario ciclista quiera acceder a este módulo, se presentará
  
  <p align="center">
     <a>
-        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="alerta eliminar" width="100" height="80">
+        <img src="https://res.cloudinary.com/dm0qsdpr8/image/upload/v1678079141/moviles%20proyecto%20final/WhatsApp_Image_2023-03-05_at_17.12.51_ypub4q.jpg" alt="alerta eliminar" width="100" height="80">
         <br>
       <b>RutaCiclista</b>
     </a>
@@ -201,8 +201,6 @@ Los usuarios registrados podrán visualizar cada una de las ubicaciones obtenida
  <p align="center">
     <a>
         <img src="https://res.cloudinary.com/dm0qsdpr8/image/upload/v1678079142/moviles%20proyecto%20final/WhatsApp_Image_2023-03-05_at_10.47.49_hcmi13.jpg" alt="alerta eliminar" width="300" height="500">
-        <br>
-      <b>RutaCiclista</b>
     </a>
     <br>
  </p>
@@ -211,7 +209,7 @@ Finalmente se deben seleccionar las coordenadas para visualizar la ubicación en
 
  <p align="center">
     <a>
-        <img src="https://res.cloudinary.com/dm0qsdpr8/image/upload/v1678079142/moviles%20proyecto%20final/WhatsApp_Image_2023-03-05_at_10.47.59_obj3dx.jpg" alt="alerta eliminar" width="300" height="500">
+        <img src="https://res.cloudinary.com/dm0qsdpr8/image/upload/v1678079142/moviles%20proyecto%20final/WhatsApp_Image_2023-03-05_at_10.47.59_obj3dx.jpg" width="300" height="500">
         <br>
       <b>RutaCiclista</b>
     </a>
