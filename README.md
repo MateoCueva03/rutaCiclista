@@ -80,13 +80,6 @@ Los integrantes que conforman el equipo de trabajo son:
 
 # Módulos
 
-<p align="center">
-    <a>
-        <img src="https://res.cloudinary.com/dm0qsdpr8/image/upload/v1678079781/moviles%20proyecto%20final/WhatsApp_Image_2023-03-05_at_20.03.36_xg8ykx.jpg" alt="modulos" width="300" height="500">
-    </a>
-    <br>
- </p>
-
 Como parte de los módulos principales del sistema se tiene: 
 <ul>
     <li><a href="#inicio-de-sesión">Inicio de sesión </a></li>
@@ -95,6 +88,13 @@ Como parte de los módulos principales del sistema se tiene:
     <li><a href="#acceso-a-la-aplicación">Acceso a la aplicación</a></li>
     <li><a href="#video-explicativo">Video explicativo</a></li>
 </ul>
+
+<p align="center">
+    <a>
+        <img src="https://res.cloudinary.com/dm0qsdpr8/image/upload/v1678079781/moviles%20proyecto%20final/WhatsApp_Image_2023-03-05_at_20.03.36_xg8ykx.jpg" alt="modulos" width="300" height="500">
+    </a>
+    <br>
+ </p>
 
 ## Inicio de sesión
 
@@ -105,9 +105,7 @@ Como parte de los módulos principales del sistema se tiene:
     <br>
  </p>
 
-Para el módulo de inicio de sesión, tanto en las configuraciones de Firebase como en el código respectivo para este módulo, se estableció la autenticación del usuario a través del correo electrónico y la contraseña 
-
-(Imagen de código de inicio de sesión)
+Para el módulo de inicio de sesión, tanto en las configuraciones de Firebase como en el código respectivo para este módulo, se estableció la autenticación del usuario a través del correo electrónico y la contraseña. 
 
 <p align="center">
     <a>
