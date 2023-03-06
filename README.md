@@ -203,7 +203,7 @@ Finalmente se debe seleccionar las coordenadas para visualizar la ubicación en 
  
 A continuación se presenta un video explicativo tanto del funcionamiento como la implementación del código.
 
-<p align="center"><a href="" target="_blank"><strong>Video explicativo »</strong></a></p>
+<p align="center"><a href="https://youtu.be/VkCsqOcxMdo" target="_blank"><strong>Aplicación Móvil: RutaCiclista</strong></a></p>
 
 ## Publicación en una tienda de aplicaciones
 
