@@ -83,8 +83,6 @@ Los integrantes que conforman el equipo de trabajo son:
 <p align="center">
     <a>
         <img src="https://res.cloudinary.com/dm0qsdpr8/image/upload/v1678079141/moviles%20proyecto%20final/WhatsApp_Image_2023-03-05_at_10.47.11_rfitmp.jpg" alt="modulos" width="300" height="500">
-        <br>
-      <b>RutaCiclista</b>
     </a>
     <br>
  </p>
@@ -102,9 +100,7 @@ Como parte de los módulos principales del sistema se tiene:
 
 <p align="center">
     <a>
-        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="inicio de sesión" width="100" height="80">
-        <br>
-      <b>RutaCiclista</b>
+        <img src="https://res.cloudinary.com/dm0qsdpr8/image/upload/v1678079141/moviles%20proyecto%20final/WhatsApp_Image_2023-03-05_at_10.46.57_g6yghv.jpg" alt="modulos" width="300" height="500">
     </a>
     <br>
  </p>
