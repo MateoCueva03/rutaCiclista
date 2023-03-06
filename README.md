@@ -82,7 +82,7 @@ Los integrantes que conforman el equipo de trabajo son:
 
 <p align="center">
     <a>
-        <img src="https://res.cloudinary.com/dm0qsdpr8/image/upload/v1678079141/moviles%20proyecto%20final/WhatsApp_Image_2023-03-05_at_10.47.11_rfitmp.jpg" alt="modulos" width="300" height="500">
+        <img src="https://res.cloudinary.com/dm0qsdpr8/image/upload/v1678079781/moviles%20proyecto%20final/WhatsApp_Image_2023-03-05_at_20.03.36_xg8ykx.jpg" alt="modulos" width="300" height="500">
     </a>
     <br>
  </p>
