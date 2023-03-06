@@ -199,7 +199,7 @@ Los usuarios registrados podrán visualizar cada una de las ubicaciones obtenida
     <br>
  </p>
  
-Finalmente se deben seleccionar las coordenadas para visualizar la ubicación en el mapa
+Finalmente se debe seleccionar las coordenadas para visualizar la ubicación en el mapa
 
  <p align="center">
     <a>
