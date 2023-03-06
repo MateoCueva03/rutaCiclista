@@ -62,9 +62,8 @@ Este proyecto fue creado con Xamarin.
 
 <p align="center">
     <a>
-        <img src="https://cdn-icons-png.flaticon.com/512/625/625387.png" alt="integrantes" width="100" height="80">
+        <img src="https://cdn-icons-png.flaticon.com/512/1376/1376510.png" alt="integrantes" width="100" height="80">
         <br>
-      <b>RutaCiclista</b>
     </a>
     <br>
  </p>
